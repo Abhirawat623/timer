@@ -29,7 +29,7 @@ hours++;
 
 displayTime(hours,minutes,seconds); //it shows the above changed p acc to new inner html f function displayTime
 
-},100 );}
+},1000 );} //1000 is milisecnds here
 
 if(button ==="stop"){
     clearInterval(timerId); //it stops the interval and holds previous value there; ---.clearInterval
